@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Tic Tac Toe"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:fontFamily="casual" />
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/texttitle"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/text_player1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Player X Score"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_player2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/text_player1"
+            android:fontFamily="casual"
+            android:text="Player O Score"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/score_player1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/text_player1"/>
+        <TextView
+            android:id="@+id/score_player2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/text_player2"
+            android:layout_toRightOf="@id/score_player1"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/relative_layout">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:backgroundTint="#dddddd"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginBottom="1.25dp"/>
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:backgroundTint="#dddddd"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginBottom="1.25dp"/>
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:backgroundTint="#dddddd"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginBottom="1.25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:backgroundTint="#dddddd"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginBottom="1.25dp"/>
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:backgroundTint="#dddddd"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginBottom="1.25dp"/>
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:backgroundTint="#dddddd"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginBottom="1.25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:backgroundTint="#dddddd"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginBottom="1.25dp"/>
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:backgroundTint="#dddddd"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginBottom="1.25dp"/>
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="50sp"
+                android:fontFamily="casual"
+                android:backgroundTint="#dddddd"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginBottom="1.25dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_linear"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:fontFamily="casual"
+        android:text="Status"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_play_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textStatus"
+        android:layout_centerHorizontal="true"
+        android:text="Play Again!"
+        android:textSize="25sp"
+        android:backgroundTint="#fabd02"
+        android:fontFamily="casual" />
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_play_again"
+        android:layout_centerHorizontal="true"
+        android:text="Reset Game"
+        android:textSize="25sp"
+        android:backgroundTint="#cc1234"
+        android:fontFamily="casual" />
+
+</RelativeLayout>
