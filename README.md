@@ -9,16 +9,24 @@ A Mobile Application developed in Android Studio using Java
 - Extensible Markup Language
 
 ## Front
-![image](https://github.com/user-attachments/assets/4f42afd3-1e5b-4493-a42f-a4a838cd61af)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/030fa599-0aa9-453d-bd0d-3d9dc879aac7">
+</div>
 
 ## Selection
-![image](https://github.com/user-attachments/assets/df877efc-49b7-4446-917f-d85e67a36f25)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/df877efc-49b7-4446-917f-d85e67a36f25">
+</div>
 
 ## Tic-Tac-Toe Game
-![image](https://github.com/user-attachments/assets/0c830396-cecc-4dcf-a2f0-dcfd824cdd08)
+<div align="center> 
+<img src="https://github.com/user-attachments/assets/0c830396-cecc-4dcf-a2f0-dcfd824cdd08">
+</div>
 
 ## Snake Game
-![image](https://github.com/user-attachments/assets/ebd84612-c176-464a-aa33-6b69494fe7eb)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/ebd84612-c176-464a-aa33-6b69494fe7eb">
+</div>
 
 
 
