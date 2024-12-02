@@ -19,7 +19,7 @@ A Mobile Application developed in Android Studio using Java
 </div>
 
 ## Tic-Tac-Toe Game
-<div align="center> 
+<div align="center"> 
 <img src="https://github.com/user-attachments/assets/0c830396-cecc-4dcf-a2f0-dcfd824cdd08">
 </div>
 
